@@ -1,0 +1,21 @@
+---
+title: "Drivers of Student Migration: A Comprehensive Review from a Behavioural Perspective"
+author:
+    - Anita Braga
+    - Andrea Blasco
+date: 
+    - December 2023
+bibliography:
+    - references.bib
+fontsize: 12pt
+geometry: margin=1in
+header-includes:
+   - \usepackage{setspace}
+   - \doublespacing
+
+---
+
+```{r, child = list.files(".", pattern = "^[0-9]+")}
+```
+
+# References
