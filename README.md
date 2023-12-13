@@ -9,6 +9,7 @@ This repository contains the code and resources for the report titled "Student M
 3. [Student Migration Patterns](./3-student-migration-patterns.Rmd)
 4. [Degree vs Credit Mobility](./4-degree-vs-credit-mobility.Rmd)
 5. [Conclusions](./5-conclusions.Rmd)
+6. [View the Website](docs/index.html)
 
 ## Project Structure
 

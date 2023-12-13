@@ -12,7 +12,8 @@ geometry: margin=1in
 header-includes:
    - \usepackage{setspace}
    - \doublespacing
-
+link-citations: yes
+linkcolor: blue
 ---
 
 ```{r, child = list.files(".", pattern = "^[0-9]+")}
