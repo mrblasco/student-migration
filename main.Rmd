@@ -1,5 +1,5 @@
 ---
-title: "Drivers of Student Migration: A Comprehensive Review from a Behavioural Perspective"
+title: "Drivers of Student Migration in Europe and Beyond: A Comprehensive Review from a Behavioural Perspective"
 author:
     - Anita Braga
     - Andrea Blasco
@@ -12,9 +12,25 @@ geometry: margin=1in
 header-includes:
    - \usepackage{setspace}
    - \doublespacing
+   - \usepackage{tcolorbox}
 link-citations: yes
 linkcolor: blue
 ---
+
+
+\tcbset{
+  eubox/.style={
+    colback=white!98!black,
+    colframe=blue!50!black,
+    coltitle=white,
+    fonttitle=,
+    title={Highlights},
+    boxrule=1.2pt,
+    bottom=8pt,
+    sharp corners,
+  }
+}
+
 
 ```{r, child = list.files(".", pattern = "^[0-9]+")}
 ```
