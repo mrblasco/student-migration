@@ -8,16 +8,19 @@ MAIN_FILE := main.Rmd
 PDF_FILE := output.pdf
 BIB_FILE := references.bib
 
+all: $(PDF_FILE)
+
 # Rule to build HTML files from Rmd files
-%.html: %.Rmd
-	Rscript -e "rmarkdown::render('$<')"
+docs/index.html: main.Rmd $(PDF_FILE)
+	Rscript -e "rmarkdown::render('$<', output_file = '$@', output_format = 'html_document')"
 
 # Rule to build PDF from main Rmd file
 $(PDF_FILE): $(MAIN_FILE) $(RMD_FILES) $(BIB_FILE)
 	Rscript -e "rmarkdown::render('$<', output_file = '$@', output_format = 'pdf_document')"
 
-# Default target to build the main HTML file
-all: $(MAIN_FILE:.Rmd=.html)
+# Rule to build DOCX from main Rmd file
+$(PDF_FILE:.pdf=.docx): $(MAIN_FILE) $(RMD_FILES) $(BIB_FILE)
+	Rscript -e "rmarkdown::render('$<', output_file = '$@', output_format = 'word_document')"
 
 # Clean target to remove HTML, PDF, and output directory
 clean:
