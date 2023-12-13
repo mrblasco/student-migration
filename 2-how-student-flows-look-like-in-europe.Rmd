@@ -1,4 +1,4 @@
-# How Student Flows Look Like in Europe
+# How Student Flows Look Like in Europe {#sec:flows}
 
 In Europe, the recent rise in student mobility has been facilitated by two initiatives: the Erasmus program and the Bologna process. The Erasmus programme, initiated in 1987, allowed students to spend periods studying, training or working abroad in institutions across Europe (European Commission, nd). While the Erasmus programme aimed at encouraging short-time student exchanges, the Bologna process, by standardising degrees across the European Area, aimed at facilitating long-term transitions from one European higher education institution to another for the whole duration of one’s degree [@balzer2007from].  The Bologna process established the European Higher Education Area. It paved the way for further European initiatives in the field of education and establishing a European Education Area by 2025 [@agostini2013education; @council2021].
 

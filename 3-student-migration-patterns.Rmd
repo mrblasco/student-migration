@@ -1,4 +1,4 @@
-# Students’ Migration Patterns Explained 
+# Students’ Migration Patterns Explained  {#sec:theories}
 
 In the literature, various theories try to model and explain International Student Mobility (henceforth ISM) between countries. This is no surprise, as ISM is a complex phenomenon that can be analysed from various perspectives. This section will consider the four most commonly used theories and models to explain ISM: Gravity models, Immigration Theory, Capital Theory and Motivation Theory [@luo2023international].
 
